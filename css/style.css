@@ -1,0 +1,158 @@
+body{
+    width: 1200px;
+    margin:0 auto;
+    
+    
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    float: left;
+    margin-bottom: 150px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    padding-top: 20px;
+    margin-right: 150px;
+
+}
+li{
+    display: inline;
+    float: right;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.inquiry-text{
+    
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.inquiry-btn{
+    
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.lets-chat{
+    float: right;
+    margin-top: 100px;
+}
+
+.name-area, .about-area{
+    height: 300px;
+    padding-top: 50px;
+   width: 100%;
+}
+.text-orange{
+    color: #FF8367
+}
+
+.name-area h1, .about-area h1{
+    font-size: 60px;
+}
+.name-area p, .about-area p{
+    padding-bottom: 30px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 20px 50px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.half-width p{
+    font-weight: lighter;
+}
+.portfolios-area{ 
+    width: 100%;
+    background-color: #F8F9FC;
+    height: 500px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolios-area h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolios{
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 12px grey;
+}
+.portfolios-title h3{
+    font-size: 15px;
+    font-weight: 900;
+}
+.portfolios img{
+    width: 100%;
+}
+.portfolio-items{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.inquery-area{
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+.inquery-contant{
+    width: 76%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../images/inquery-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.inquery-contant h1{
+    font-size: 30px;
+    margin-top: 100px;
+    color: white;
+    padding-left: 50px;
+}
+
+.skills-area{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+   
+}
+.skill-heading, .skills-name{
+    width: 50%;
+    height: 100%;
+}
+.skill-heading h1{
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+    padding-left:30px ;
+}
