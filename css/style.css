@@ -1,6 +1,8 @@
 body{
     width: 1200px;
     margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+   
     
     
 }
@@ -10,8 +12,9 @@ h1, h2, h3{
 section{
     float: left;
     margin-bottom: 150px;
+    width: 100%;
 }
-ul{
+.menu>ul{
     list-style: none;
     position: relative;
     padding-top: 20px;
@@ -70,6 +73,8 @@ a{
 }
 .name-area p, .about-area p{
     padding-bottom: 30px;
+    color: black;
+    text-align: left;
 }
 
 .link-button{
@@ -90,6 +95,7 @@ a{
     height: 500px;
     margin-top: 100px;
     padding-bottom: 100px;
+    
 }
 .portfolios-area h1{
     text-align: center;
@@ -106,10 +112,16 @@ a{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 1px 12px grey;
+    
 }
+
 .portfolios-title h3{
     font-size: 15px;
     font-weight: 900;
+    text-align: center;
+}
+.portfolios-description p{
+    color: black;
 }
 .portfolios img{
     width: 100%;
@@ -143,16 +155,53 @@ a{
 .skills-area{
     width: 100%;
     height: 300px;
-    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    
    
 }
-.skill-heading, .skills-name{
-    width: 50%;
-    height: 100%;
-}
-.skill-heading h1{
+
+.skills-area h1{
     font-size: 30px;
+    text-align: center;
+    
+}
+.skills{
+    width: 30%;
+    height: 50%;
+    margin-left: 10px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    float: left;
+    padding: 10px;
+}
+.skills h2,p{
     color: white;
-    padding-top: 40px;
-    padding-left:30px ;
+    text-align: center;
+    
+}
+.skills:hover{
+    background-image: linear-gradient(45deg, rgb(241, 226, 14),rgb(243, 235, 233));
+    color: whitesmoke;
+}
+
+.contact-social{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-social h3{
+    text-transform: uppercase;
+    color: rgb(148, 146, 146);
+}
+.contact-social ul>li{
+    list-style: none;
+    display: inline;
+    float: left;
+}
+.contact-social ul>li>a>img{
+    width: 35px;
+    margin-left: 20px;
+
+}
+.copyright{
+    text-align: center;
 }
